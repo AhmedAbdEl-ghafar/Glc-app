@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ahmedabdelghafar.legarage.Home"
+    android:layoutDirection="rtl"
+    >
+
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/icon_homepage"
+        android:title="الصفحة الرئيسية"
+        app:itemTextColor="#E689C3"
+        />
+    <item android:id="@+id/menu7"
+        android:title="طلباتي"
+        android:icon="@drawable/gavel"
+        />
+
+
+    <item android:id="@+id/menu2"
+        android:title="طلب جديد"
+        android:icon="@drawable/notification"/>
+
+    <!--<item-->
+        <!--android:id="@+id/menu3"-->
+        <!--android:title="الرسائل"-->
+        <!--android:icon="@drawable/message"></item>-->
+
+
+    <!--<item android:id="@+id/menu5"-->
+        <!--android:title="مبيعاتي"-->
+        <!--android:icon="@drawable/sales"/>-->
+
+    <item android:id="@+id/menu6"
+        android:title="المستودعات"
+        android:icon="@drawable/parchess"
+        />
+
+
+    <item android:id="@+id/menu8"
+        android:title="العروض"
+        android:icon="@drawable/likess"/>
+    <item android:id="@+id/menu4"
+        android:title="اتصل بنا"
+        android:icon="@drawable/call_us"/>
+
+    <item android:id="@+id/menu9"
+        android:title="الإعدادات"
+        android:icon="@drawable/settingsss"/>
+
+    <item android:id="@+id/menu10"
+        android:title="تسجيل الخروج"
+        android:icon="@drawable/log_out"/>
+
+</menu>

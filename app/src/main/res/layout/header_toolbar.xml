@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/appbackgroundred"
+
+    android:padding="0dp" >
+    android:gravity="center_vertical">
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/circular_image"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/profile_icon"
+        app:siBorderColor="#7d0606"
+        app:siBorderWidth="2dp" />
+
+    <TextView
+        android:id="@+id/welcomess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:text="محمد الخولي"
+        />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>

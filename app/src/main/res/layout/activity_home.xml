@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context=".Home"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:id="@+id/linera_ss_reciv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_xx"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/menu"
+        android:layout_marginTop="0dp"
+
+        android:layout_gravity="start"
+        android:orientation="vertical"
+
+        android:background="#FFFFFF"
+        app:itemIconTint="#5c5c5c"
+        app:itemTextColor="#060606">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
